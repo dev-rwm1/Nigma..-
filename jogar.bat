@@ -1,0 +1,1 @@
+start "" ".\Main page\index.html"

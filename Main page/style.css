@@ -1,0 +1,35 @@
+body {
+    background-image: linear-gradient(120deg, rgb(25,25,25), rgb(0,0,0));
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    display: flex;
+}
+
+.line{
+    font-family: "Courier New", Courier, monospace;
+    font-size: 3em;
+    color: rgb(255, 255, 255, .75);
+    margin: 0 auto;
+    text-decoration:none; 
+    text-align: center;
+
+}
+.line::after {
+    content: '|';
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1.5em;
+    animation: blink .7s infinite;
+    margin-left: 5px;
+}
+
+@keyframes blink{
+        from{
+            opacity: 75;
+        }
+            
+        to{
+            opacity: 0;
+        }
+
+    }

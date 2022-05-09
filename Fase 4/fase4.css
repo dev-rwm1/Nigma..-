@@ -1,0 +1,50 @@
+:root{
+    --cor-normal: rgb(255, 255, 255, .75);
+    --cor-hover: rgb(150, 150, 150, .75);
+}
+
+body {
+    background-image: linear-gradient(120deg, rgb(25,25,25), rgb(0,0,0));
+}
+h1 {
+    display: flex;
+    margin: auto;
+    font-family: "Courier New", Courier, monospace;
+    font-size: .75em;
+    color: rgb(255, 255, 255, .75);
+    width: 63px;
+    margin-top: 1vh;
+}
+h3 {
+    display: block;
+    margin: auto;
+    color: rgb(255, 255, 255, 0);
+    font-size: 5px;
+    margin-top: 31.7vh;
+}
+button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3vh;
+    padding: 7px;
+    width: 120px;
+    border-radius: 5px;
+    outline: 0;
+    font-size: 15px;
+    font-family: "Courier New", Courier, monospace;
+    background-color: var(--cor-normal);
+}
+button:hover{
+    background-color: var(--cor-hover);
+}
+button:active{
+    color: #fff;
+    opacity: .75;
+}
+img {
+    display: flex;
+    margin: auto;
+    margin-top: 5vh;
+    border-radius: 5px;
+}
